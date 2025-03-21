@@ -1,5 +1,5 @@
 const express = require('express');
-const router = require("./router/pages");
+const router = require("./routes/pages.js");
 
 const app = express();
 const PORT = 3000;
