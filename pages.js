@@ -12,4 +12,4 @@ router.get("/about", (req, res) => {
     res.send("This is the about page!");
 });
 
-modules.exports = router;
+module.exports = router;
